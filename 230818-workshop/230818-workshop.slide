@@ -1,0 +1,65 @@
+# Workshop Presentation 
+About RF Map and its future
+18 Aug 2023
+Tags: rfmap, sc, tjlabs
+Summary: This is summary
+
+Mark
+kghnkl0103@gmail.com
+github
+@keenranger
+
+## For whom? 
+ 
+- novice to sc(Surface Correlation)
+- advanced in sc and curious how it's gonna be developed
+- suspicious of Mark work
+
+
+## SC(Surface Correlation)
+
+.image sc.gif 350 _
+.caption how surface correlation works
+- Hardware Infra
+- Technology
+- Software Infra
+
+## SC Infra
+
+- Hardware Infra  
+	- Installed *wards*(bluetooth beacon of TJLABS)
+	- Monitored with WMS(Ward Management System)
+- Technology
+	- Algorithm and written code
+	- Maintained with developer's soul
+- Software Infra
+	- **RF map**
+	- Not quite maintained, even hard to manage 
+
+## Contents
+
+With a focus on RF Map...
+- What's **go**ing on 
+- How I'm **go**ing to manage
+- **Go** with **Go**
+
+## What's going on
+- Uploaded on AWS S3
+	- decouple technology and software infra
+	- compression technique 
+	- the lower container size, the faster boot
+- Divided into .csv files from .npy file(no dependencies)
+	- .npy file only can be read in Python and few data language
+	- .csv file can be read in Python, Golang, Java...(almost every programming language), even in Excel
+
+## How I'm going to manage
+
+- Good developer tool can enhance developer's productivity
+- Build, manage, visualize in web  
+
+.image mms.gif 300 _
+.caption preview of mms
+
+## Go with Go
+
+some text
