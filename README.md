@@ -1,2 +1,3 @@
 # pt
-repo for presentation
+
+[template](https://go-talks.appspot.com/github.com/keenranger/pt/template.slide)
