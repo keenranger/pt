@@ -1,0 +1,40 @@
+# Title of Talk
+Subtitle
+1 Jan 1970
+Tags: foo, bar
+Summary: This is summary
+
+Mark
+kghnkl0103@gmail.com
+github
+@keenranger
+
+## Some title
+
+Some Text
+
+- bullets
+- more bullets
+- a bullet continued
+  on the next line
+
+Some More text
+
+	Preformatted text (code block)
+	is indented (by one tab, or four spaces)
+
+Further Text, including command invocations.
+
+## Section 2: Example formatting {#fmt}
+
+Formatting:
+
+_italic_
+// A comment that is completely ignored.
+: Speaker notes.
+**bold**
+`program`
+Markup—_especially italic text_—can easily be overused.
+_Why use scoped\_ptr_? Use plain **\*ptr** instead.
+
+Visit [the Go home page](https://golang.org/).
